@@ -1,0 +1,14 @@
+=====================================================================
+Assignment: Lab 8
+OK, version v1.18.1
+=====================================================================
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Running tests
+
+---------------------------------------------------------------------
+Test summary
+    1 test cases passed! No cases failed.
+
+Performing authentication
+Please enter your school email (.edu): OK is up to date

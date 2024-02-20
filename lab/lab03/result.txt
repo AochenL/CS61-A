@@ -1,0 +1,20 @@
+pingpong_helper(1, 1, 1, 10):
+    pingpong_helper(2, 2, 1, 10):
+        pingpong_helper(3, 3, 1, 10):
+            pingpong_helper(4, 4, 1, 10):
+                pingpong_helper(5, 5, 1, 10):
+                    pingpong_helper(6, 6, 1, 10):
+                        pingpong_helper(7, 7, 1, 10):
+                            pingpong_helper(8, 8, -1, 10):
+                                pingpong_helper(7, 9, -1, 10):
+                                    pingpong_helper(6, 10, -1, 10):
+                                    pingpong_helper(6, 10, -1, 10) -> 6
+                                pingpong_helper(7, 9, -1, 10) -> 6
+                            pingpong_helper(8, 8, -1, 10) -> 6
+                        pingpong_helper(7, 7, 1, 10) -> 6
+                    pingpong_helper(6, 6, 1, 10) -> 6
+                pingpong_helper(5, 5, 1, 10) -> 6
+            pingpong_helper(4, 4, 1, 10) -> 6
+        pingpong_helper(3, 3, 1, 10) -> 6
+    pingpong_helper(2, 2, 1, 10) -> 6
+pingpong_helper(1, 1, 1, 10) -> 6
